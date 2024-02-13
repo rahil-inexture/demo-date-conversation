@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 20 px;
         }
 
         h1 {
@@ -73,18 +73,18 @@
         <h3>Headers</h3>
         <pre><code>User-TimeZone: Asia/Kabul
 Content-Type: application/json</code></pre>
-</article>
+    </article>
 
     <article>
         <h3>Body</h3>
         <pre><code>{
-"name": "John Doe",
-"email": "john@example.com",
-"notificationDate": "2024-02-13T11:57:32.720477",
-"localDate": "2024-02-13",
-"date": "2024-02-13 13:09:34"
+  "name": "John Doe",
+  "email": "john@example.com",
+  "notificationDate": "2024-02-13T11:57:32.720477",
+  "localDate": "2024-02-13",
+  "date": "2024-02-13 13:09:34"
 }</code></pre>
-</article>
+    </article>
 
     <article>
         <h3>cURL</h3>
@@ -92,13 +92,13 @@ Content-Type: application/json</code></pre>
 --header 'User-TimeZone: Asia/Kabul' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-"name": "John Doe",
-"email": "john@example.com",
-"notificationDate": "2024-02-13T11:57:32.720477",
-"localDate": "2024-02-13",
-"date": "2024-02-13 13:09:34"
+  "name": "John Doe",
+  "email": "john@example.com",
+  "notificationDate": "2024-02-13T11:57:32.720477",
+  "localDate": "2024-02-13",
+  "date": "2024-02-13 13:09:34"
 }'</code></pre>
-</article>
+    </article>
 </section>
 
 <section>
@@ -115,8 +115,8 @@ Content-Type: application/json</code></pre>
     "createdAt": "2024-02-13T12:21:25.343401",
     "updatedAt": "2024-02-13T12:21:25.343401"
 }</code></pre>
-<p>The response returns details of the user's test timezone request including their ID, name, email, notification date, local date, and timestamps for when the data was created and last updated.</p>
-</article>
+        <p>The response returns details of the user's test timezone request including their ID, name, email, notification date, local date, and timestamps for when the data was created and last updated.</p>
+    </article>
 </section>
 
 <section>
@@ -149,8 +149,8 @@ Content-Type: application/json</code></pre>
         "updatedAt": "2024-02-13T07:51:25.343401"
     }
 ]</code></pre>
-<p>The response returns details of the user's test timezone request including their ID, name, email, notification date, local date, and timestamps for when the data was created and last updated.</p>
-</article>
+        <p>The response returns details of the user's test timezone request including their ID, name, email, notification date, local date, and timestamps for when the data was created and last updated.</p>
+    </article>
 </section>
 
 </body>
